@@ -9,7 +9,6 @@ body{
     top: 0%;
     height: 80px;
     box-shadow: 5px 5px 5px 1px rgb(6, 5, 83);
-    padding: 10px;
     width: 100%;
 }
 
@@ -64,6 +63,8 @@ body{
     font-size: 15px;
 }
 
+
+
 .logo a{
     width:15px;
     color: rgba(168, 164, 164, 0.918);
@@ -75,7 +76,7 @@ body{
 }
 
 .text{
-    background-image: linear-gradient(to top, rgba(1, 9, 43, 0.719)50%,rgba(1, 9, 43, 0.719)50%), url(/img/houses.jpg);
+    background-image:  linear-gradient(rgba(4, 12, 71, 0.6),rgba(16, 7, 90, 0.6)), url(/img/houses.jpg);
     background-size: cover;
     background-position: center;
     width: auto;
@@ -163,7 +164,7 @@ body{
     }
 
     
-    .card:hover{ transform: scale(1.05);
+    .card:hover{ background-color:  rgb(247, 230, 230);
         cursor: pointer;
         
 
@@ -210,12 +211,7 @@ body{
     margin: 70px;
 }
 
-/* #about button:hover{
-    background-color: rgb(250, 30, 30);
-    color: white;
-    cursor: pointer;
-    
-}  */
+
 
 footer{
     display: flex;
@@ -255,5 +251,5 @@ margin: 3px;
 }
 .small small{
     font-size: 18px;
-    margin-left: 680px;
+    margin-left: 600px;
 }

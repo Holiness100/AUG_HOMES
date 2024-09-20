@@ -71,16 +71,15 @@ body{
     font-size: 15px; 
 }
 
-.text{
+.head{
     text-align: center;
-    font-family: Arial;
-    font-size: 30px;
+    font-family: sans-serif;
+    font-size: 2rem;
 }
 
 .container{ 
     display: flex;
     margin: 30px;
-
     flex-wrap: wrap;
     justify-content: space-around;
     }
@@ -91,13 +90,11 @@ body{
     }
 
     .card{margin: 15px;
-    height: 400px;
-    width: 300px;
-     /* border: 5px black ridge; */
+    height: auto;
+    width: 22rem;
      border-radius: 10px;
     justify-content: center;
     color: rgb(56, 54, 54);
-    /* background-color: lightgray; */
     margin: 30px;
 
    
@@ -116,29 +113,28 @@ body{
     background-size: cover;}
     
    
-    
-   
     p strong{ padding: 5px;
-        font-size: 20px;
+        font-size: 25px;
         font-family: "Raleway";
-        margin: 10px;
+        margin: 18px;
+        color: black;
     }
+
 
     .card p{
-        color: black;
+        font-family: "Raleway";
         font-size: 20px;
-        font-family: sans-serif ;
-    }
-
     
-
+    }
+   
     .btn{
         background-color:  rgb(6, 5, 83);
-        height: 30px;
+        height: 40px;
         align-items: center;
         color: white;
         font-family: "Raleway";
-        font-size: 20px
+        font-size: 20px;
+        width: 340px;
 
     }
 
@@ -151,5 +147,46 @@ body{
 
     }
 
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(4, 5, 27);
+        color: rgb(247, 247, 247);
+        padding: 30px;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .footer span{
+        color:rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 25px;
+        margin: 5px;
+        font-family: "Raleway", sans-serif;
+    }
+    .footer p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    margin: 3px;
+    }
+    .footer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "Raleway", sans-serif;
+    }
+    .small{
+        background-color: rgb(4, 5, 27);
+        margin-top: -10px;
+        padding: 15px;
+        color: white;
+        
+    }
+    .small small{
+        font-size: 18px;
+        margin-left: 600px;
+    }
 
    

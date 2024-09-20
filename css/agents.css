@@ -100,6 +100,8 @@ body{
 .add{
     justify-content: center;
     margin-left: 600px;
+    
+
 }
 .add svg{
     border: 5px solid black;
@@ -111,4 +113,48 @@ body{
 .add p{
     font-size: 20px;
     font-family: sans-serif;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 5, 27);
+    color: rgb(247, 247, 247);
+    padding: 30px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 150px;
+    
+}
+
+.footer span{
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 25px;
+    margin: 5px;
+    font-family: "Raleway", sans-serif;
+}
+.footer p{
+letter-spacing: 1px;
+word-spacing: 1px;
+font-size: 18px;
+text-decoration: none;
+font-family: "Raleway", sans-serif;
+margin: 3px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+}
+.small{
+    background-color: rgb(4, 5, 27);
+    margin-top: -10px;
+    padding: 15px;
+    color: white;
+}
+.small small{
+    font-size: 16px;
+    margin-left: 600px;
 }

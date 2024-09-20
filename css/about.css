@@ -91,20 +91,21 @@ body{
 }
 
 .text{
-    margin: 250px;
+    margin: 100px;
 }
 
 .text h1{
     font-size: 50px;
     font-family: Arial;
     text-align: center;
+   color: rgb(4, 5, 27); 
 
 }
 
 .text p{
     font-size: 30px;
-    color: rgb(90, 88, 88);
-    font-family: Helvetica;
+    color: black;
+    font-family:  "Raleway", sans-serif;
     margin-left: 20px;
     
 
@@ -112,11 +113,83 @@ body{
 
 .text strong{
     font-size: 30px;
-    color: rgb(212, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: 'Courier New';
     gap: 30px;
 }
+
+.team{
+    text-align: center;
+    color: rgb(4, 5, 27);
+    font-size: 30px;
+    font-family: sans-serif;
+}
  
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{margin: 15px;
+    background: bisque;
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.card-image{
+    height: 150px;
+    width: 180px;
+    margin:10px
+    
+}
+
+.card i{
+    padding: 10px;
+}
+
+.ceo{
+    background-image: url(/img/IMG-20240913-WA0007.jpg);
+    border-radius: 70%;
+    background-size: cover;
+
+   
+  
+}
+
+.cof{
+    background-image: url(/img/scholar.jpg);
+    border-radius: 70%;
+    background-size: cover;
+}
+
+
+
+.manager{
+    background-image: url(/img/mana.jpg);
+    border-radius: 70%;
+    background-size: cover;
+   
+  
+}
+    
+.cto{
+    background-image: url(/img/woman.jpg);
+    border-radius: 70%;
+    background-size: cover;
+   
+  
+}
+    
+.coo{
+    background-image: url(/img/man3.jpg);
+    border-radius: 70%;
+    background-size: cover;
+}
+
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -155,8 +228,7 @@ margin: 3px;
     
 }
 .small small{
-    font-size: 18px;
-    /* margin-left: 60px; */
-    
+    font-size: 18px; 
 
 }
+

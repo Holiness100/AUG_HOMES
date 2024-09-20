@@ -75,7 +75,7 @@ body{
 }
 
 .text{
-    background-image: linear-gradient(to top, rgba(1, 9, 43, 0.719)50%,rgba(1, 9, 43, 0.719)50%), url(/img/houses.jpg);
+    background-image:  linear-gradient(rgba(4, 12, 71, 0.6),rgba(16, 7, 90, 0.6)), url(/img/houses.jpg);
     background-size: cover;
     background-position: center;
     width: auto;
@@ -168,7 +168,7 @@ body{
     }
 
     
-    .card:hover{ transform: scale(1.05);
+    .card:hover{ background-color: rgb(247, 230, 230);
         cursor: pointer;
         
 
@@ -260,5 +260,5 @@ margin: 3px;
 }
 .small small{
     font-size: 18px;
-    margin-left: 680px;
+    margin-left: 600px;
 }
